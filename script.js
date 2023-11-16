@@ -6,7 +6,7 @@ const apiPath={
     fetchAllCategories: `${apiEndpoint}/genre/movie/list?api_key=${apikey}`,
     fetchMoviesList: (id) => `${apiEndpoint}/discover/movie?api_key=${apikey}&with_genres=${id}`,
     fetchTrending:`${apiEndpoint}/trending/all/day?api_key=${apikey}&language=en-US`,
-    searchOnYoutube: (query) => `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=AIzaSyDWD1jWYLM-RtwnLf7Njk0_8JNyKYMgzRE`
+    searchOnYoutube: (query) => `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=AIzaSyCHSWpfUjY3rRriPbks0i9uMMhPj0fyiTM`
 }
 
 //Boots the Application
